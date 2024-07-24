@@ -1,0 +1,16 @@
+Create folder in desktop
+Open cmd
+Run :-
+cd desktop
+cd "folder name"
+python -m venv env
+env\scripts\activate
+django-admin startproject p . 
+pip install django 
+python manage.py startapp "project-name"
+code  . 
+
+
+[7/23, 10:38 PM] Sathwik S: after typing is done in vs code open terminal -> new terminal-> python manage.py runserver
+[7/23, 10:43 PM] Sathwik S: For 5th program after typing in new terminal type python manage.py makemigrations then again type python manage.py migrate
+[7/23, 10:43 PM] Sathwik S: Then open dbsqilte application and select open databases then choose the file and select dbsqlite.3 and open it then start inserting the data and after insertion is done go to vs code again and type python manage.py runserver
